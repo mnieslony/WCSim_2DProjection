@@ -6,6 +6,6 @@ Code to create 2D projections for particle simulations done in WCSim (https://gi
 ROOT6 should be installed, and the `Setup.sh` script should be sourced in order to make the library needed by WCSim. Afterwards, the tool can be used by typing
 
 ```
-root -l 'Projection_AtmosphericDSNB.C("filename.root",verbose=true/false)'
+root -l 'Projection_Atmospheric_DSNB.C("filename.root",verbose=true/false)'
 ```
 
