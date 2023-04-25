@@ -5,7 +5,7 @@ cd WCSimLib
 make clean
 make -f Makefile_ROOT6
 cp libWCSimRoot.so ../
-cp libWCSimRoot_rdict.pcm ../
+cp WCSimRootDict_rdict.pcm ../
 
 echo "Done with WCSimLib"
 cd ..
