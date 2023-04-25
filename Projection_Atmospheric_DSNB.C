@@ -29,7 +29,7 @@
 // Small macro which reads in WCSim files and produces the necessary outputs for convolutional neural network classification of the 2D projected images
 // Macro produces csv output files which show the 2D-projected charge and time images of the prompt events (e+ for DSNB, gamma for Atmospheric events)
 // Re-purposed general structure of the sample_readin.C file from https://github.com/WCSim/WCSim.git
-// Main code is implemented from the original implementation in the ToolAnalysis framework (https://github.com/mnieslony/ToolAnalysis/CNN_SK)
+// Main code is implemented from the original implementation in the ToolAnalysis framework (https://github.com/mnieslony/ToolAnalysis/tree/CNNImages_SK)
 
 // Run code as a root macro via `root -l 'Projection_Atmospheric_DNSB("/path/to/file.root",true/false)'
 
